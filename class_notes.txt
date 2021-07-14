@@ -1,0 +1,77 @@
+Variables
+=========
+    - variables are used to store the data.
+
+            Ex.
+                string
+                number
+                boolean
+                arrays
+                objects
+                ---
+                ---
+                ---
+
+    - we will declare variables by using "var" , "let" or "const".
+
+    - both "let" and "const" keywords introduced in "ES6".
+
+    - variables should contain a-z , A-Z, 0-9, $ and _
+
+    - variables should not start with digits.
+
+Syntax
+======
+    var / let / const variablename = value;
+
+
+
+=> string
+
+=> number
+
+=> boolean
+
+=> undefined
+
+=> null
+
+=> bigint
+
+=> Symbol
+
+
+string
+======
+    collection of characters called as "string".
+
+    we will represent string in 3 ways.
+
+            1) "" (double quotes)
+
+            2) '' (single quotes)
+
+            3) `` (backtick operator)
+
+    `` (backtick operator) introduced in "ES6".
+
+    `` (backtick operator) used to define the "paragraphs"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
