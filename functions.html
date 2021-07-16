@@ -1,0 +1,137 @@
+<!--
+<script>
+    function fun_one(){
+        return "welcome to reactjs";
+    }
+    console.log( fun_one );
+    console.log( fun_one() );
+</script>
+-->
+
+
+<!--
+<script>
+    function fun_one(){
+        return fun_two;
+    }
+    function fun_two(){
+        return "hello";
+    }
+    console.log(  fun_one  );
+    console.log( fun_one() );
+    console.log( fun_one()() );
+</script>
+-->
+
+<!--
+<script>
+    function fun_one(arg1,arg2,arg3){
+        console.log( arg1, arg2, arg3 );
+    }
+    fun_one("ReactJS","NodeJS","MongoDB");          //ReactJS NodeJS MongoDB
+    fun_one("Angular12","NodeJS","CassandraDB");    //Angular12 NodeJS CassandraDB
+    fun_one("VueJS","NodeJS","MongoDB");            //VueJS NodeJS MongoDB
+    fun_one();                                      //undefined undefined undefined
+    fun_one(null,null,null);                        //null null null
+</script>
+-->
+
+
+
+<!--
+    arrow functions
+    ===============
+        - the function without name called as arrow function
+
+        - arrow functions introduced in "ES6"
+
+        - we will represent arrow functions by using "=>"
+-->
+
+<!--
+<script>
+     let fun_one = ()=>{
+         return "welcome to arrow functions";
+     }
+     console.log( fun_one() );
+     console.log( fun_one );    
+</script>
+-->
+
+<!--
+<script>
+    let fun_one = (arg1,arg2,arg3)=>{
+        console.log( arg1, arg2, arg3 );
+    };
+    fun_one("ReactJS","NodeJS","MongoDB");          //ReactJS NodeJS MongoDB
+    fun_one();                                      //undefined undefined undefined
+</script>
+-->
+
+
+
+<script>
+    let fun_one = (arg1,arg2)=>{
+        console.log( arg1(), arg2() )
+    };
+    fun_one(()=>{
+        return "Success";
+    },()=>{
+        return "Fail"
+    });         //Success Fail
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

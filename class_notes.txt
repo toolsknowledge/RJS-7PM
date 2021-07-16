@@ -58,6 +58,43 @@ string
     `` (backtick operator) used to define the "paragraphs"
 
 
+function
+========
+    - particular business logic called as function
+
+    - functions are used to "reuse" the business logic
+
+    - we will define functions by using "function" keyword
+
+
+Syntax
+======
+    //function definition
+    function functionname(arg1,arg2,arg3,....argn){
+        //business logic
+    }
+
+    //call the function
+    functionname(param1,param2,param3,param4,.....paramn);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
