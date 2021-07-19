@@ -1,0 +1,34 @@
+<script>
+    let products = [
+        {"sno":1,"name":"shirt1","brand":"polo","price":100,"rating":1.0,"image":"https://ecommerce-9am.s3.ap-south-1.amazonaws.com/p1.jpg"},
+        {"sno":2,"name":"shirt2","brand":"Niki","price":200,"rating":2.0,"image":"https://ecommerce-9am.s3.ap-south-1.amazonaws.com/p2.jpg"},
+        {"sno":3,"name":"shirt3","brand":"American","price":300,"rating":3.0,"image":"https://ecommerce-9am.s3.ap-south-1.amazonaws.com/p3.jpg"},
+        {"sno":4,"name":"pant1","brand":"polo","price":400,"rating":3.5,"image":"https://ecommerce-9am.s3.ap-south-1.amazonaws.com/p4.jpg"},
+        {"sno":5,"name":"pant2","brand":"Niki","price":500,"rating":4.0,"image":"https://ecommerce-9am.s3.ap-south-1.amazonaws.com/p5.jpg"},
+        {"sno":6,"name":"pant3","brand":"American","price":1000,"rating":5.0,"image":"https://ecommerce-9am.s3.ap-south-1.amazonaws.com/p6.jpg"}
+    ];
+    document.write(`
+        <table border="1">
+            <tr>
+                <th>sno</th>
+                <th>name</th>
+                <th>brand</th>
+                <th>price</th>
+                <th>rating</th>
+                <th>image</th>
+            </tr>
+    `);
+    products.forEach((element,index)=>{
+        document.write(`
+            <tr>
+                <td>${element.sno}</td>
+                <td>${element.name}</td>
+                <td>${element.brand}</td>
+                <td>${element.price}</td>
+                <td>${element.rating}</td>
+                <td><img width="100px" height="100px" src=${element.image}></td>
+            </tr>
+        `);
+    });
+    document.write(`</table>`);
+</script>
