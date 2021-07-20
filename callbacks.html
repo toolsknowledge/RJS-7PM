@@ -1,0 +1,145 @@
+<!--
+<script>
+    function fun_one(arg1){
+        console.log( arg1() );
+    };
+    fun_one( function fun_two(){
+        return "Hello";
+    } );
+</script>
+-->
+
+
+<!--
+<script>
+    function fun_one(arg1,arg2,arg3){
+        console.log( arg1(), arg2(), arg3() );
+    };
+    fun_one( function fun_two(){
+        return "ReactJS";
+    } ,
+             function fun_three(){
+                 return "NodeJS";
+             },
+             function fun_four(){
+                 return "MongoDB"
+             } );   //ReactJS NodeJS MongoDB
+</script>
+-->
+
+
+<!--
+<script>
+    let my_var = (arg1)=>{
+        console.log( arg1() );
+    }
+    my_var( ()=>{
+        return "Hello";
+    } );                            //Hello
+</script>
+-->
+
+
+<!--
+<script>
+    let my_var = (arg1,arg2,arg3)=>{
+        console.log( arg1(), arg2(), arg3() );
+    }
+    my_var( ()=>{ return "Hello_1" },
+            ()=>{ return "Hello_2" },
+            ()=>{ return "Hello_3" } );         //Hello_1 Hello_2 Hello_3
+</script>
+-->
+
+
+<script>
+    let add = (num,callback)=>{
+        return callback(num+5,false)
+    };
+
+    let sub = (num,callback)=>{
+        return callback(num-3,false);
+    }
+
+    let mul = (num,callback)=>{
+        return callback(num*2,false);
+    }
+
+    let div = (num,callback)=>{
+        return callback(num/2-2,false);
+    };
+
+    add( 5, (addRes,error)=>{
+        if(!error){
+            sub(addRes, (subRes,error)=>{
+                if(!error){
+                    mul(subRes,(mulRes,error)=>{
+                        if(!error){
+                            div(mulRes,(divRes,error)=>{
+                                if(!error){
+                                    console.log(divRes);
+                                }
+                            })
+                        }
+                    })
+                }
+            } );
+        }
+    } );
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
