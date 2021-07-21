@@ -79,6 +79,90 @@ Syntax
 
 
 
+TypeScript
+==========
+    - TypeScript is the "programming" language.
+
+    - TypeScript given by "microsoft".
+
+    - "superset" of javascript also called as "TypeScript".
+
+    - TypeScript follows the "OOPS".
+
+    - TypeScript used to build the Angular,React,Node,VueJS,.....
+
+    - we will save TypeScript files ".ts" extension.
+
+    - in general, browsers can't understand TypeScript
+
+    - so, we must convert TypeScript to equalent javascript.
+
+    - conversion from TypeScript to equalent javascript called as "transpilation".
+
+    - "tsc" is the tool, used to perform the transpilation.
+
+    - "tsc" stands for TypeScript Compiler.
+
+
+installation of TypeScript
+==========================
+
+> npm install -g typescript
+
+    npm stands for node packaging manager
+
+    -g stands for global installation.
+
+
+Transpilation
+=============
+   > tsc demo.ts
+         o/p
+    demo.js
+
+    > node demo.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
