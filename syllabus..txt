@@ -1,0 +1,127 @@
+1) Introduction to ReactJS
+
+    => what is ReactJS
+
+    => Angular / React / NodeJS / VueJS
+
+    => Virtual DOM
+
+
+2) Installation of ReactJS
+
+
+3) Components in ReactJS
+
+    => Functional Components / Stateless Components
+
+    => Class Components / Stateful Components
+
+
+4) Components Communications
+
+    => Parent to Child Communications
+
+    => Child to Parent Communications
+
+
+5) Events in Components
+
+    => click
+
+    => double click
+
+    => change
+
+    => key events
+
+
+6) Asynchronous Calls
+
+        => axios
+
+        => fetch
+
+
+7) Spring Boot Integration
+
+
+8) MERN Stack Development
+
+    M - MongoDB
+
+    E - ExpressJS
+
+    R - ReactJS
+
+    N - NodeJS
+
+9) Hooks
+
+    useState()
+
+    useEffect()
+
+    useCallBack()
+
+    useRef()
+
+    useContext()
+
+    useSuspense()
+
+    ---
+    ---
+    ---
+    ---
+
+10) Forms with Validations
+
+        => formik
+
+        => yup
+
+
+
+11) Middlewares in ReactJS
+
+        => Redux
+
+        => Thunk
+
+        => Saga
+
+
+12) Project
+
+
+13) Cloud Deployment
+
+    => AWS Deployment
+
+        CI / CD Process
+
+    => Heroku Deployment
+
+
+14) Single Page Applications
+
+    => Routing
+
+    => Routing Parameters
+
+    => Protected Routes
+
+
+15) Unit Test Cases
+
+
+16) Token Based Authentication System
+
+        JSON WEB TOKEN
+
+
+17) Material UI
+
+
+18) Debugging
+
