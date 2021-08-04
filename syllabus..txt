@@ -263,6 +263,36 @@ file    : VSCodeUserSetup-x64-1.58.2.exe
 
 
 
+create the react application
+****************************
+1) create the react application by using following command
+
+        > npx create-react-app first-app    (JSX)
+
+
+        > npx create-react-app first-app --template typescript   (TSX)
+
+    
+2) switch to react application
+
+    > cd first-app
+
+
+3) execute the react application
+
+    > yarn start
+
+    The default port number of react application is "3000"
+
+
+
+Virtual DOM
+***********
+
+DOM -  Document Object Model
+
+
+
 
 
 
