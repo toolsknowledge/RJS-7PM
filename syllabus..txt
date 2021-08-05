@@ -286,8 +286,7 @@ create the react application
 
 
 
-Virtual DOM
-***********
+
 
 DOM -  Document Object Model
 
@@ -297,6 +296,50 @@ DOM -  Document Object Model
 
 
 
+
+
+Directory Structure
+*******************
+1) node_modules
+
+        - node_modules containes libraries
+
+        - these libraries helps to execute the react application
+
+
+2) public/favicon.ico
+
+    - this is the default logo of react.
+
+
+3) public / index.html
+
+    - react starts the execution from "index.html" file.
+
+    - "index.html" file called as main template.
+
+    - "index.html" file containes "div" whose id is "root"
+
+    - "index.js" file bind the component data to "div".
+
+4) public / logo192.png
+            logo512.png
+    
+        - these logos are default logos provided by react library
+
+        - these logos helps to execute react application in different resolutions
+
+
+5) public / manifest.json
+
+    - helps to implement the mobile application develop
+
+
+6) public / robots.txt
+
+    - helps to define the SEO Keywords.
+
+    - SEO Stands for Search Engine Optimization
 
 
 
