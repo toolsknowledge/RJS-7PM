@@ -342,10 +342,11 @@ Directory Structure
     - SEO Stands for Search Engine Optimization
 
 
+state
+*****
+    component data called as state.
 
-
-
-
+    useState() is life cycle hook, used to define the state in functional component.
 
 
 
