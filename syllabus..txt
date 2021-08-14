@@ -351,6 +351,217 @@ state
 
 
 
+Login Application
+*****************
+
+1) create the table in MongoDB
+
+    => MongoDB Database is NoSQL Database.
+
+    => MongoDB Database supports JSON.
+
+    => MongoDB Database is light weight Database.
+
+    => MongoDB Database Supports Cloud environment in the form of MongoDB Atlas.
+
+
+                SQL                             NoSQL
+******************************************************************************************
+
+Ex.
+        Oracle                                  MongoDB
+
+        MySQL                                   CassandraDB
+
+        SQLServer                               RabbitMQ
+
+
+        tables                                  collections
+
+        databases                               databases
+
+        rows                                    documents
+
+        primary key                             _id
+*******************************************************************************************
+
+Database name   :   login
+
+collection name :   login_tbl
+
+connection url  : mongodb+srv://admin:admin@miniprojectdb.nzphu.mongodb.net/login?retryWrites=true&w=majority
+
+
+2) create the node server
+
+        => nodejs is the "backend" technology.
+
+        => nodejs used to develop the "servers".
+
+        => we will develop nodejs applications with the help of "JavaScript".
+
+        => nodejs supports libraries/modules.
+
+        => these libraries we can download either "npm" tool or "yarn" tool.
+
+libraries
+*********
+
+1) express
+
+        - express library used to develop the rest api's
+
+        GET
+
+        POST
+
+        PUT
+
+        DELETE
+
+        PATCH
+
+        ---
+        ---
+        ---
+
+2) mongodb
+
+        - "mongodb" library helps to connct to "mongodb Database".
+
+
+3) body-parser
+
+    - used to receive the data from client application.
+
+
+4) cors
+
+    - used to enable the Communications between ports.
+
+    - enable the cors policy
+
+
+=> create the folder
+
+    Ex.
+        server
+
+
+=> switch to server folder
+
+    > cd server
+
+
+=> download the libraries
+
+    > yarn express mongodb body-parser cors
+
+
+=> create the node server
+
+    server.js
+
+
+=> start the node server
+
+    > node server
+
+
+=> test the rest api by using "Postman"
+
+    http://localhost:8080/login
+
+
+
+create the frontend application
+*******************************
+=> create the react application
+
+    > npx create-react-app login-app
+
+
+=> switch to react application
+
+    > cd login-app
+
+
+=> download axios module
+
+    - axios module used to connect to server
+
+    > yarn add axios --save
+
+
+=> create the Login Component
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
