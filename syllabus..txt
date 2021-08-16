@@ -496,6 +496,85 @@ create the frontend application
 => create the Login Component
 
 
+Deployment of NodeJS to AWS Server
+**********************************
+
+1) push nodejs code to GitHub
+
+
+2) create the application in aws server
+
+
+3) implement the CI / CD Process
+
+
+
+Frontend Deployment
+*******************
+
+1) configure the cloud url
+
+    => http://Reactjs7pmserver-env.eba-t3tjxmnm.ap-south-1.elasticbeanstalk.com/login
+
+2) download aws cli tool
+
+    url : https://aws.amazon.com/cli/
+
+    file  : AWSCLIV2.msi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

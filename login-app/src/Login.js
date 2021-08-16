@@ -7,7 +7,8 @@ function Login(){
 
     const login = ()=>{
         
-            axios.post("http://localhost:8080/login",{"email":email.current.value,
+            axios.post("http://Reactjs7pmserver-env.eba-t3tjxmnm.ap-south-1.elasticbeanstalk.com/login",
+                                                {"email":email.current.value,
                                                       "password":password.current.value})
                                                       .then((posRes)=>{
                             const { data } = posRes;
