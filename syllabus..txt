@@ -2,19 +2,19 @@
 
     => what is ReactJS
 
-    => Angular / React / NodeJS / VueJS
+    => Angular / React / NodeJS / VueJS    (Pending)
 
     => Virtual DOM
 
 
-2) Installation of ReactJS
+2) Installation of ReactJS       
 
 
 3) Components in ReactJS
 
-    => Functional Components / Stateless Components
+    => Functional Components / Stateless Components   
 
-    => Class Components / Stateful Components
+    => Class Components / Stateful Components     (pending)
 
 
 4) Components Communications
@@ -518,143 +518,56 @@ Frontend Deployment
 
 2) download aws cli tool
 
-    url : https://aws.amazon.com/cli/
+    website : https://aws.amazon.com/cli/
 
-    file  : AWSCLIV2.msi
+    file    : AWSCLIV2.msi
 
 
+3) prepare the production build
 
+    > npm run build
 
+4) push build file to aws s3 bucket
 
+        URL : http://mernappl.s3-website.ap-south-1.amazonaws.com
 
+        => static website hosting
 
+            Ex.
+                index.html
 
+        => bucket policy
 
+            {
+        "Version": "2012-10-17",
+        "Statement": [
+            {
+                "Sid": "PublicReadGetObject",
+                "Effect": "Allow",
+                "Principal": "*",
+                "Action": "s3:GetObject",
+                "Resource": "arn:aws:s3:::mernappl/*"
+            }
+        ]
+    }
 
+5) create the user credentials
 
+        IAM
 
 
+6) edit the package.json file
 
+    scripts:{
 
+        "deploy": "aws s3 cp --recursive ./build s3://mernappex"
+    }
 
+7) execute the following commands
 
+    > aws configure
 
+    > npm run build
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    > npm run deploy
 
