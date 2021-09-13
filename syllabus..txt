@@ -14,7 +14,7 @@
 
     => Functional Components / Stateless Components   
 
-    => Class Components / Stateful Components     (pending)
+    => Class Components / Stateful Components    
 
 
 4) Components Communications
