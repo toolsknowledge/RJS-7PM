@@ -598,6 +598,25 @@ Spring Boot Integration
 
 
 
+Middlewares
+
+        Redux
+        Saga
+        Thunk
+
+Hooks
+
+Forms with Validations
+
+WebPack
+
+Unit test Cases
+
+Debugging
+
+
+
+
 
 
 
