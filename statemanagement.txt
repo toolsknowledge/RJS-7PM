@@ -1,0 +1,34 @@
+State Management
+****************
+    React applications are component based applications.
+
+    we can create more than one component.
+
+    we can provide the communication between the components.
+
+    we can provide communication between parent component to child component with the help of props.
+
+    we can provide communication between child component to parent component with the help of events.
+
+    if application is large, communication between components are difficult.
+
+    in order to overcome above difficulty we have state Management in React.
+
+    by using state Management we can maintain common data at client side.
+
+    this common data available to all components.
+
+    reading the data from common place called as subscription.
+
+    updating the data to the common place called as dispatch
+
+    to implement state Management we have redux library.
+
+
+    
+
+
+
+
+
+
